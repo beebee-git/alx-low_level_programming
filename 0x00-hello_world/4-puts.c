@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -this function prints a sentence about programming.
+ * main - this function prints a sentence.
  *
  * return: success (0)
  */
