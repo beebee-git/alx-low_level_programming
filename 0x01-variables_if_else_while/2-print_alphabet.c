@@ -11,6 +11,7 @@ int main(void)
 	for (i = 'a'; i <= 'a'; i++)
 	{
 		putchar(i);
+		putchar('\n');
 	}
 	return (0);
 }
