@@ -15,14 +15,13 @@ int main(void)
 		putchar((num % 10) + '0');
 	        if (num < 9)
 		{
-			putchar(',');
-			putchar(' ');
-
+			putchar((',') + ' ');
 		}
 		else 
 		{
 			putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
