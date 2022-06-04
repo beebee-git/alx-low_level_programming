@@ -19,9 +19,7 @@ int main(void)
 			putchar(' ');
 		}
 		else
-		{
 			putchar(' ');
-		}
 	}
 	return (0);
 }
