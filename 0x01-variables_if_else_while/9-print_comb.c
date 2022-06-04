@@ -1,24 +1,23 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints numbers between 0 to 9
+ * with commas and spaces.
  *
- * Description: Display possible combinations of single digit numbers
- *
- * Return: Zero (0)
+ * Return: Always 0.
  */
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 0; num < 10; num++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar((num % 10) + '0');
-		if (num < 9)
+		putchar(i);
+		if (i != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
