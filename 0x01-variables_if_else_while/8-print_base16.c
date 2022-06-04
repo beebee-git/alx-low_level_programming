@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print number between 0 to 9 and letters between a to f.
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
