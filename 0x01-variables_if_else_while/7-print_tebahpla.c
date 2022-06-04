@@ -1,17 +1,17 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - To print lowercase alphabeths in reverse order
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char letter;
+	char ch;
 
-	for (letter = 'z'; letter >= 'a'; letter--)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(letter);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
