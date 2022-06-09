@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_times_table - print time table.
  * @n: integer.
@@ -26,6 +27,13 @@ void print_times_table(int n)
 					_putchar('0' + k);
 				}
 				else if (k < 100)
+				{
+					_putchar(' ');
+					_putchar(' ');
+					_putchar((k / 10) + '0');
+					_putchar((k % 10) + '0');
+				}
+				else
 				{
 					_putchar(' ');
 					_putchar((k / 100) + '0');
